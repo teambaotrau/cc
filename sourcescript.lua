@@ -987,7 +987,7 @@ v8.BorderSizePixel = 0;
 v8.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0);
 v8.Size = UDim2.new(0, 53.5, 0, 53.5);
 v8.BackgroundTransparency = 1;
-v8.Image = "rbxassetid://114698798996193";
+v8.Image = "rbxassetid://100405416791554";
 v8.Draggable = true;
 v8.MouseButton1Click:Connect(function()
 	game.CoreGui:FindFirstChild("Anchor").Enabled = not game.CoreGui:FindFirstChild("Anchor").Enabled;
@@ -9979,7 +9979,7 @@ v74:Toggle("Esp Mystic Island", false, function(v442)
 end);
 v74:Seperator("Troll");
 v74:Button("Rain Fruit", function()
-	for v827, v828 in pairs(game:GetObjects("rbxassetid://14759368201")[1]:GetChildren()) do
+	for v827, v828 in pairs(game:GetObjects("rbxassetid://100405416791554")[1]:GetChildren()) do
 		v828.Parent = game.Workspace.Map;
 		v828:MoveTo(game.Players.LocalPlayer.Character.PrimaryPart.Position + Vector3.new(math.random( -50, 50), 100, math.random( -50, 50)) );
 		if v828.Fruit:FindFirstChild("AnimationController") then
